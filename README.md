@@ -2,40 +2,104 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Key features
 
-Key Features:
 
- 🔐 Next-auth v5 (Auth.js)
- 🚀 Next.js 14 with server actions
- 🔑 Credentials Provider
- 🌐 OAuth Provider (Social login with Google & GitHub)
- 🔒 Forgot password functionality
- ✉ Email verification
- 📱 Two factor verification
- 👥 User roles (Admin & User)
- 🔓 Login component (Opens in redirect or modal)
- 📝 Register component
- 🤔 Forgot password component
- ✅ Verification component
- ⚠️ Error component
- 🔘 Login button
- 🚪 Logout button
- 🚧 Role Gate
- 🔍 Exploring next.js middleware
- 📈 Extending & Exploring next-auth session
- 🔄 Exploring next-auth callbacks
- 👤 useCurrentUser hook
- 🛂 useRole hook
- 🧑 currentUser utility
- 👮 currentRole utility
- 🖥️ Example with server component
- 💻 Example with client component
- 👑 Render content for admins using RoleGate component
- 🛡️ Protect API Routes for admins only
- 🔐 Protect Server Actions for admins only
- 📧 Change email with new verification in Settings page
- 🔑 Change password with old password confirmation in Settings page
- 🔔 Enable/disable two-factor auth in Settings page
- 🔄 Change user role in Settings page (for development purposes only)
+
+## 🔐 Next-auth v5 (Auth.js)
+
+This repository contains a Next.js application integrated with Next-auth v5, focusing on authentication and authorization features. Below is a breakdown of the features and components included in this project:
+
+## 🚀 Next.js 14 with Server Actions
+- Utilizing Next.js 14 for server-side rendering and serverless functions.
+
+## 🔑 Credentials Provider
+- Integration of a credentials provider for traditional email/password authentication.
+
+## 🌐 OAuth Provider (Social login with Google & GitHub)
+- Implementation of OAuth authentication with Google and GitHub for social login.
+
+## 🔒 Forgot Password Functionality
+- Implementation of the forgot password functionality with email verification.
+
+## ✉ Email Verification
+- Integration of email verification for new user registration and password reset.
+
+## 📱 Two Factor Verification
+- Implementation of two-factor verification for enhanced security.
+
+## 👥 User Roles (Admin & User)
+- Support for defining user roles, including Admin and User roles.
+
+## 🔓 Login Component (Opens in Redirect or Modal)
+- Flexible login component that can open in a redirect or modal.
+
+## 📝 Register Component
+- Registration component for new users.
+
+## 🤔 Forgot Password Component
+- Component for initiating the password reset process.
+
+## ✅ Verification Component
+- Component for verifying email addresses.
+
+## ⚠️ Error Component
+- Component for displaying errors.
+
+## 🔘 Login Button
+- UI component for initiating the login process.
+
+## 🚪 Logout Button
+- UI component for logging out users.
+
+## 🚧 Role Gate
+- Component for controlling access to specific routes or content based on user roles.
+
+## 🔍 Exploring Next.js Middleware
+- Exploration of Next.js middleware for handling authentication and authorization logic.
+
+## 📈 Extending & Exploring Next-auth Session
+- Extension and exploration of Next-auth session management capabilities.
+
+## 🔄 Exploring Next-auth Callbacks
+- Exploration of Next-auth callbacks for handling authentication flows.
+
+## 👤 useCurrentUser Hook
+- Custom React hook for accessing the current user data.
+
+## 🛂 useRole Hook
+- Custom React hook for accessing the current user's role.
+
+## 🧑 currentUser Utility
+- Utility function for retrieving the current user data.
+
+## 👮 currentRole Utility
+- Utility function for retrieving the current user's role.
+
+## 🖥️ Example with Server Component
+- Example implementation with a server-side rendered component.
+
+## 💻 Example with Client Component
+- Example implementation with a client-side rendered component.
+
+## 👑 Render Content for Admins Using RoleGate Component
+- Example of rendering content specifically for users with the Admin role using the RoleGate component.
+
+## 🛡️ Protect API Routes for Admins Only
+- Implementation of protection for API routes accessible only to users with the Admin role.
+
+## 📧 Change Email with New Verification in Settings Page
+- Functionality for changing the user's email address with new email verification.
+
+## 🔑 Change Password with Old Password Confirmation in Settings Page
+- Functionality for changing the user's password with confirmation of the old password.
+
+## 🔔 Enable/Disable Two-Factor Auth in Settings Page
+- Functionality for enabling or disabling two-factor authentication in the settings page.
+
+## 🔄 Change User Role in Settings Page (For Development Purposes Only)
+- Functionality for changing the user's role in the settings page (for development purposes only).
+
+This project aims to provide a comprehensive example of authentication and authorization features using Next.js and Next-auth v5, covering a wide range of scenarios and use cases.
+
 
 ## Getting Started
 
